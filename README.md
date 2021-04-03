@@ -18,3 +18,13 @@ takes an LDAC stream and decodes it to WAV
 
 #### ldacenc
 uses Android LDAC encoder library to create LDAC streams from audio
+
+
+### Fork notes
+Replace Linux-only Makefile with portable Automake system.
+
+```sh
+$ ./bootstrap.sh
+$ ./configure
+$ make
+```

@@ -1,0 +1,10 @@
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=@libdir@
+includedir=@includedir@
+
+Name: LDAC Decoder Lib
+Description: LDAC Decoder Lib
+Version: @PACKAGE_VERSION@
+Libs: -L${libdir} -lldacdec
+Cflags: -I${includedir}
